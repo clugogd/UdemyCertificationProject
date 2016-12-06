@@ -172,9 +172,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\1001fonts-super-g-type-2-eula.txt" />
+    <None Include="Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Imported\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
+    <None Include="Assets\Imported\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Imported\PBS Materials Variety Pack\readme.txt" />
-    <None Include="Assets\Imported\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Imported\Standard Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />

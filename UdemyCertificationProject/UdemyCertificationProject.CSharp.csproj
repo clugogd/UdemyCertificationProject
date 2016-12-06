@@ -96,41 +96,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\ActivateTrigger.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\AlphaButtonClickMask.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\AutoMoveAndRotate.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\CameraRefocus.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\CurveControlledBob.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\DragRigidbody.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\DynamicShadowSettings.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\EventSystemChecker.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\FOVKick.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\FPSCounter.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\FollowTarget.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\ForcedReset.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\LerpControlledBob.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\ObjectResetter.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\PlatformSpecificContent.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\SimpleMouseRotator.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\SmoothFollow.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\TimedObjectActivator.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\TimedObjectDestructor.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\WaypointCircuit.cs" />
-    <Compile Include="Assets\Imported\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\KillPlane.cs" />
+    <Compile Include="Assets\Physics Asset Package\Aiming\BallisticsAim.cs" />
+    <Compile Include="Assets\Physics Asset Package\Aiming\HeadMovement.cs" />
+    <Compile Include="Assets\Physics Asset Package\Cannon\BallisticSolver.cs" />
+    <Compile Include="Assets\Physics Asset Package\Cannon\Cannon.cs" />
+    <Compile Include="Assets\Physics Asset Package\Hoop\GoalScoring.cs" />
+    <Compile Include="Assets\Physics Asset Package\Hoop\Highlighter.cs" />
+    <Compile Include="Assets\Physics Asset Package\Hoop\MovingTarget.cs" />
+    <Compile Include="Assets\Physics Asset Package\Projectile\ProjectileDebug.cs" />
+    <Compile Include="Assets\Physics Asset Package\Projectile\ProjectileExpiry.cs" />
+    <Compile Include="Assets\Physics Asset Package\Projectile\ProjectileSpawner.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraHardAttach.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraSwitcher.cs" />
     <Compile Include="Assets\Scripts\Controllers\FPSController.cs" />
@@ -145,9 +121,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\1001fonts-super-g-type-2-eula.txt" />
+    <None Include="Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Imported\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
+    <None Include="Assets\Imported\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Imported\PBS Materials Variety Pack\readme.txt" />
-    <None Include="Assets\Imported\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <None Include="Assets\Imported\Standard Assets\Fonts\OpenSans\License!.txt" />
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
