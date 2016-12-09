@@ -14,16 +14,20 @@ public class Cannon : MonoBehaviour {
     private AudioSource audioSource;
     private float firingTimer = 0.0f;
     private bool bCanFire = true;
+    [SerializeField]
+    private Vector3 firingImpulse;
+    private Rigidbody rb;
 
     // Use this for initialization
     void Start ()
     {
         firingTimer = rateOfFire;
         audioSource = GetComponent<AudioSource>();
-	}
-	
-	// Update is called once per frame
-	void Update ()
+        rb = transform.root.gameObject.GetComponent<Rigidbody>();
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
         firingTimer -= Time.deltaTime;
 
@@ -40,6 +44,12 @@ public class Cannon : MonoBehaviour {
                 Destroy(Instantiate(fireVFX, muzzle.position, Quaternion.identity),0.5f);
             if( fireSFX)
                 audioSource.PlayOneShot(fireSFX);
+
+            CameraShake shake = Camera.main.GetComponent<CameraShake>();
+            shake.StartShake();
+
+            if( rb )
+                rb.AddForce(firingImpulse, ForceMode.Impulse);
         }
 	}
 
