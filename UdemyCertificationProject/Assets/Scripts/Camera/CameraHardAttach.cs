@@ -17,10 +17,9 @@ public class CameraHardAttach : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void LateUpdate ()
     {
-        transform.position = objectToFollow.position + offset;
-        if( !isFPSCamera )
-            transform.LookAt(objectToFollow);
+        transform.position = objectToFollow.position;
+        transform.forward = objectToFollow.forward;
     }
 }

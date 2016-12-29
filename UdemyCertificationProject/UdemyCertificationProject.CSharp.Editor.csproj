@@ -169,6 +169,8 @@
     <Compile Include="Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
     <Compile Include="Assets\Editor\ImageEffects\TonemappingEditor.cs" />
     <Compile Include="Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\Imported\Area730\UpdateManager\Editor\SimpleJSON.cs" />
+    <Compile Include="Assets\Imported\Area730\UpdateManager\Editor\UpdatesWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\1001fonts-super-g-type-2-eula.txt" />
@@ -176,6 +178,10 @@
     <None Include="Assets\Imported\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
     <None Include="Assets\Imported\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Imported\PBS Materials Variety Pack\readme.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />

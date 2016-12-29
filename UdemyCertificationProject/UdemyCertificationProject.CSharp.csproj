@@ -97,7 +97,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BarrelMovement.cs" />
+    <Compile Include="Assets\DestroyOnContact.cs" />
     <Compile Include="Assets\FrameMovement.cs" />
+    <Compile Include="Assets\GameInstance.cs" />
+    <Compile Include="Assets\Imported\Mega Toon FX Free Pack\Script\AutoDestory.cs" />
+    <Compile Include="Assets\Imported\Mega Toon FX Free Pack\Script\CameraOrbit.cs" />
+    <Compile Include="Assets\Imported\Mega Toon FX Free Pack\Script\SceneManager.cs" />
     <Compile Include="Assets\KillPlane.cs" />
     <Compile Include="Assets\Physics Asset Package\Aiming\BallisticsAim.cs" />
     <Compile Include="Assets\Physics Asset Package\Aiming\HeadMovement.cs" />
@@ -121,6 +126,8 @@
     <Compile Include="Assets\Scripts\Controllers\VehicleMovementPlayer.cs" />
     <Compile Include="Assets\Scripts\Projectiles\ProjectileMovement.cs" />
     <Compile Include="Assets\Scripts\Utility\RespawnObject.cs" />
+    <Compile Include="Assets\TrafficVehicle.cs" />
+    <Compile Include="Assets\VehicleSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\1001fonts-super-g-type-2-eula.txt" />
@@ -128,6 +135,10 @@
     <None Include="Assets\Imported\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
     <None Include="Assets\Imported\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Imported\PBS Materials Variety Pack\readme.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />

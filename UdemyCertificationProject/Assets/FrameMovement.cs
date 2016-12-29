@@ -9,9 +9,11 @@ public class FrameMovement : MonoBehaviour {
     private List<Transform> allWheels = new List<Transform>();
     public float rotationSpeed = 2.0f;
     private float sensitivity = 0.19f;
+    [SerializeField]
     private bool bIsInverted = true;
+    [SerializeField]
     private bool bCanMove = false;
-
+ 
     private float turnRotationAmount;
     private float moveRotationAmount;
 
@@ -42,6 +44,8 @@ public class FrameMovement : MonoBehaviour {
                 Forward(moveRotationAmount);
             if (moveRotationAmount > 0.0f)
                 Forward(moveRotationAmount);
+
+            transform.Translate(transform.forward * moveRotationAmount * Time.deltaTime);
         }
     }
 

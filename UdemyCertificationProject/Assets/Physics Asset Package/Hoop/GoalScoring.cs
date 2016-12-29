@@ -28,7 +28,9 @@ public class GoalScoring : MonoBehaviour
         Destroy(other.gameObject);
 
         audioSource.PlayOneShot(scoringSFX);
-        Destroy(Instantiate(scoringVFX, transform.position, Quaternion.identity),1.0f);
+        GameObject scoringeffect = Instantiate(scoringVFX,transform.position,transform.rotation);
+        scoringeffect.transform.localScale.Set(50.0f, 50.0f, 50.0f);
+        Destroy(scoringeffect,1.0f);
 
         if (highlighter)
         {
