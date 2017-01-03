@@ -19,62 +19,14 @@ Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\
 Loading D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\test_build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\test_build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\test_build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.122 seconds
+- Completed reload, in  0.036 seconds
 Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\test_build_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\test_build_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.069941 ms
+UnloadTime: 1.068230 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 204c -> priority: 1 
-  Thread -> id: 1fd8 -> priority: 1 
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Goal Scored! <Projectile(Clone)>
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+  Thread -> id: 1c4c -> priority: 1 
+  Thread -> id: 2fc4 -> priority: 1 

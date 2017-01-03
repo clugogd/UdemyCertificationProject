@@ -17,19 +17,23 @@ public class CameraShake : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-	    
-	}
-	
-	// Update is called once per frame
-	void Update ()
+        originalPosition = transform.localPosition;
+        originalRotation = transform.rotation;
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
        
 	}
 
+    public void Reset()
+    {
+        transform.localPosition = originalPosition;
+        transform.rotation = originalRotation;
+    }
     public void StartShake()
     {
-        originalPosition = transform.localPosition;
-        originalRotation = transform.rotation;
         StartCoroutine("Shake");
     }
 
@@ -46,7 +50,7 @@ public class CameraShake : MonoBehaviour
             while (currentDuration > 0.0f)
             {
                 //  translation shake
-                //transform.localPosition = originalPosition + Random.insideUnitSphere * currentDuration;
+                transform.localPosition = originalPosition + Random.insideUnitSphere * currentDuration;
 
                 // rotation shake
                 transform.rotation = new Quaternion(originalRotation.x + Random.Range(-currentDuration, currentDuration) * .2f,

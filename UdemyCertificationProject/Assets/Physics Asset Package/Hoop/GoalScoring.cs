@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.UI;
 
 [RequireComponent(typeof(AudioSource))]
 public class GoalScoring : MonoBehaviour
@@ -9,6 +9,8 @@ public class GoalScoring : MonoBehaviour
     public AudioClip scoringSFX;
     public GameObject scoringVFX;
     private AudioSource audioSource;
+    public Text scoreText;
+    public Text scoreNotification;
 
     // Use this for initialization
     void Start()
@@ -32,9 +34,17 @@ public class GoalScoring : MonoBehaviour
         scoringeffect.transform.localScale.Set(50.0f, 50.0f, 50.0f);
         Destroy(scoringeffect,1.0f);
 
+        scoreNotification.gameObject.SetActive(true);
+        scoreNotification.gameObject.GetComponentInParent<Image>().enabled = true;
+
         if (highlighter)
         {
             highlighter.Highlight();
+            GameState._instance.AddScore(1);
+
+            yield return new WaitForSeconds(0.5f);
+            scoreNotification.gameObject.SetActive(false);
+            scoreNotification.gameObject.GetComponentInParent<Image>().enabled = false;
             yield return null;
         }
         else
@@ -43,5 +53,6 @@ public class GoalScoring : MonoBehaviour
             yield return new WaitForSeconds(1.0f);
             GetComponent<MeshRenderer>().enabled = false;
         }
-   }
+    }
+
 }

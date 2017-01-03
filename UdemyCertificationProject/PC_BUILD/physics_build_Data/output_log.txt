@@ -1,0 +1,150 @@
+Initialize engine version: 5.5.0b10 (2db95121a71d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD FirePro M4000 (ID=0x682d)
+    Vendor:   ATI
+    VRAM:     1002 MB
+    Driver:   15.201.1301.0
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.033 seconds
+Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\MyGIT\UdemyCertificationProject\UdemyCertificationProject\PC_BUILD\physics_build_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.254678 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: a48 -> priority: 1 
+  Thread -> id: 34c0 -> priority: 1 
+Goal Scored! <CannonBall(Clone)>
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Goal Scored! <CannonBall(Clone)>
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Goal Scored! <CannonBall(Clone)>
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.842766 ms
+
+Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 559.
+Total: 0.629905 ms (FindLiveObjects: 0.036348 ms CreateObjectMapping: 0.024802 ms MarkObjects: 0.216382 ms  DeleteObjects: 0.351515 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameState.UpdateTimer () [0x00000] in <filename unknown>:0 
+  at GameState.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameState.UpdateTimer () [0x00000] in <filename unknown>:0 
+  at GameState.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameState.UpdateTimer () [0x00000] in <filename unknown>:0 
+  at GameState.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameState.UpdateTimer () [0x00000] in <filename unknown>:0 
+  at GameState.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameState.UpdateTimer () [0x00000] in <filename unknown>:0 
+  at GameState.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameState.UpdateTimer () [0x00000] in <filename unknown>:0 
+  at GameState.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameState.UpdateTimer () [0x00000] in <filename unknown>:0 
+  at GameState.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameState.UpdateTimer () [0x00000] in <filename unknown>:0 
+  at GameState.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameState.UpdateTimer () [0x00000] in <filename unknown>:0 
+  at GameState.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at GameState.UpdateTimer () [0x00000] in <filename unknown>:0 
+  at GameState.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

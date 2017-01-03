@@ -1,0 +1,27 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TestSpawner : MonoBehaviour {
+
+    [SerializeField]
+    private GameObject player;
+    [SerializeField]
+    private Transform spawnPoint;
+
+	// Use this for initialization
+	void Start ()
+    {
+        if (!GameObject.Find("GameInstance"))
+        {
+            Debug.LogWarning("GameInstance was not found. Using test spawning.");
+        }
+        Camera.main.gameObject.SetActive(false);
+        Instantiate(player, spawnPoint.position, spawnPoint.rotation);
+    }
+
+    // Update is called once per frame
+    void Update () {
+		
+	}
+}
