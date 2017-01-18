@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameInstance : MonoBehaviour
 {
@@ -29,11 +30,13 @@ public class GameInstance : MonoBehaviour
 
     public void MainMenu()
     {
-       Application.LoadLevel("Main");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+//       Application.LoadLevel("Main");
     }
 
     public void CannonLevel()
     {
-        Application.LoadLevel("Physics");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Physics");
+//        Application.LoadLevel("Physics");
     }
 }

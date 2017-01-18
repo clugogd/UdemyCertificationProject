@@ -109,11 +109,13 @@ public class GameState : MonoBehaviour {
             displayString = minutes.ToString() + ":" + secondDisplay;
 
         //Debug.Log(displayString);
-
-        if( currentMatchTime <= 0.0f)
-            timeDisplayText.text = "0:0";
-        else
-            timeDisplayText.text = displayString;
+        if (timeDisplayText)
+        {
+            if (currentMatchTime <= 0.0f)
+                timeDisplayText.text = "0:0";
+            else
+                timeDisplayText.text = displayString;
+        }
     }
 
     public void CheckForGameOver()

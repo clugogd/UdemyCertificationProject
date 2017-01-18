@@ -99,6 +99,7 @@
     <Compile Include="Assets\Imported\Mega Toon FX Free Pack\Script\AutoDestory.cs" />
     <Compile Include="Assets\Imported\Mega Toon FX Free Pack\Script\CameraOrbit.cs" />
     <Compile Include="Assets\Imported\Mega Toon FX Free Pack\Script\SceneManager.cs" />
+    <Compile Include="Assets\LevelTravelPortal.cs" />
     <Compile Include="Assets\Physics Asset Package\Aiming\BallisticsAim.cs" />
     <Compile Include="Assets\Physics Asset Package\Aiming\HeadMovement.cs" />
     <Compile Include="Assets\Physics Asset Package\Cannon\BallisticSolver.cs" />
