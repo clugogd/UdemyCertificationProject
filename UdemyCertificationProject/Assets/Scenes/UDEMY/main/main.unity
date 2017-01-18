@@ -296,6 +296,11 @@ Prefab:
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 698403056}
+    - target: {fileID: 23187291222563948, guid: 01c1ac4d28eba874da1db2de375dfd3c,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 01c1ac4d28eba874da1db2de375dfd3c, type: 2}
   m_IsPrefabParent: 0
@@ -2109,6 +2114,7 @@ GameObject:
   - component: {fileID: 2130715238}
   - component: {fileID: 2130715237}
   - component: {fileID: 2130715236}
+  - component: {fileID: 2130715239}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
@@ -2179,3 +2185,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2130715234}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!45 &2130715239
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130715234}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}

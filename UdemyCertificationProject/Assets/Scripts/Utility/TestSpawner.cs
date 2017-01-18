@@ -16,9 +16,13 @@ public class TestSpawner : MonoBehaviour {
         {
             Debug.LogWarning("GameInstance was not found. Using test spawning.");
         }
-        Camera.main.gameObject.SetActive(false);
-        GameObject newPlayer = Instantiate(player, spawnPoint.position, spawnPoint.rotation);
-        newPlayer.tag = "Player";
+
+        if (!GameObject.FindGameObjectWithTag("Player"))
+        {
+            GameObject newPlayer = Instantiate(player, spawnPoint.position, spawnPoint.rotation);
+            newPlayer.tag = "Player";
+            Camera.main.gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame

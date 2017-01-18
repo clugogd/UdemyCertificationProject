@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/UDEMY/main/main.unity
+- path: Assets/Scenes/UDEMY/Animation/Animation.unity
   isLoaded: 1
   isActive: 1
