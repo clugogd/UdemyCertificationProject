@@ -6,6 +6,7 @@ public class TestSpawner : MonoBehaviour {
 
     [SerializeField]
     private GameObject player;
+
     [SerializeField]
     private Transform spawnPoint;
 
@@ -17,11 +18,14 @@ public class TestSpawner : MonoBehaviour {
             Debug.LogWarning("GameInstance was not found. Using test spawning.");
         }
 
-        if (!GameObject.FindGameObjectWithTag("Player"))
+        if (spawnPoint == null)
+            spawnPoint = transform;
+
+        if (player)
         {
+            Camera.main.gameObject.SetActive(false);
             GameObject newPlayer = Instantiate(player, spawnPoint.position, spawnPoint.rotation);
             newPlayer.tag = "Player";
-            Camera.main.gameObject.SetActive(false);
         }
     }
 
