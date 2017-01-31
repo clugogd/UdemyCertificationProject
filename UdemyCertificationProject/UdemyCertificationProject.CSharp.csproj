@@ -126,6 +126,7 @@
     <Compile Include="Assets\Scripts\Controllers\VehicleSpawner.cs" />
     <Compile Include="Assets\Scripts\Framework\GameInstance.cs" />
     <Compile Include="Assets\Scripts\Framework\GameState.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Projectiles\ProjectileMovement.cs" />
     <Compile Include="Assets\Scripts\Utility\DestroyOnContact.cs" />
     <Compile Include="Assets\Scripts\Utility\ExplodeOnContact.cs" />
